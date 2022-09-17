@@ -6,3 +6,4 @@ The forEach() method calls a function (a callback function) once for each array 
 <li>The item index</li>
 <li>The array itself</li>
 <ul>
+<p> The example above uses only the value parameter. The example can be rewritten to</p>
