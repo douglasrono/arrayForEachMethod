@@ -7,3 +7,12 @@ The forEach() method calls a function (a callback function) once for each array 
 <li>The array itself</li>
 <ul>
 <p> The example above uses only the value parameter. The example can be rewritten to</p>
+<code>
+const numbers = [45, 4, 9, 16, 25];
+let txt = "";
+numbers.forEach(myFunction);
+
+function myFunction(value) {
+  txt += value + "<br>";
+}
+</code>
